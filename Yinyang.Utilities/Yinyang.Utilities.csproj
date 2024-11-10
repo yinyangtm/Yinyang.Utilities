@@ -1,16 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net472;netcoreapp3.1;netstandard2.1;net6</TargetFrameworks>
+    <TargetFrameworks>net472;net48;net481;netstandard2.1;net6;net7;net8</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0</FileVersion>
-    <VersionPrefix>1.0.0</VersionPrefix>
+    <Version>1.0.1</Version>
     <Authors>Yinyang</Authors>
     <Product>Yinyang.Utilities</Product>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Copyright>Copyright 2023 Yinyang</Copyright>
+    <Copyright>Copyright 2024 Yinyang</Copyright>
     <PackageProjectUrl>https://github.com/yinyangtm/Yinyang.Utilities</PackageProjectUrl>
     <RepositoryUrl>https://github.com/yinyangtm/Yinyang.Utilities.git</RepositoryUrl>
     <Description>C# Utilities</Description>
