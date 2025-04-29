@@ -1,14 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net472;net48;net481;netstandard2.1;net6;net7;net8</TargetFrameworks>
+    <TargetFrameworks>net472;net48;net481;netstandard2.1;net8;net9</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Yinyang</Authors>
     <Product>Yinyang.Utilities</Product>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Copyright>Copyright 2024 Yinyang</Copyright>
+    <Copyright>Copyright 2025 Yinyang</Copyright>
     <PackageProjectUrl>https://github.com/yinyangtm/Yinyang.Utilities</PackageProjectUrl>
     <RepositoryUrl>https://github.com/yinyangtm/Yinyang.Utilities.git</RepositoryUrl>
     <Description>C# Utilities</Description>
@@ -24,7 +24,7 @@
     <NeutralLanguage>ja-JP</NeutralLanguage>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
     <None Include="..\LICENSE.md">
       <Pack>True</Pack>
       <PackagePath></PackagePath>

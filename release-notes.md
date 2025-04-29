@@ -1,5 +1,13 @@
 # Release Notes
 
+
+## v1.0.2 (04/29/2025)
+
+* **New Features:**
+
+  - **StrConvHelper Enhancements**: Added half-width and full-width character conversion functionality.
+
+
 ## v1.0.1 (11/10/2024)
 
 * **New Features:**
